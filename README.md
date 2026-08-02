@@ -1,9 +1,24 @@
 # Everything about Git
-A comprehensive updated list of essential git commands for your everyday work.
+A comprehensive updated crash course of Git for common everyday work.
 
-Hello Odin!
+## Setting Up and Initiating Git
+Commands to set up your environment before working on a project.
 
-`git clone "SSH Link of the repo"` - Clones the repo to your local machine
+`git config` - Sets up your information for your commits.
+    
+  ```Bash
+  git config --global user.name "Lee"
+  git config --global user.email "gg@gmail.com"
+  ```
+
+`git init` - Initialize a new git repository in your current folder/directory. Creates a hidden .git that tracks your project's progress/history.
+
+
+`git clone <SSH or HTTPS>` - Downloads repo from a remove server to your local machine.
+    
+  ```Bash
+  git clone git@github.com:LeejanAlipio/git-commands-test.git
+  ```
 
 `git status` - Checks the status if any changes have been made. 
 
