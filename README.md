@@ -18,12 +18,23 @@ Commands to set up your environment before working on a project.
   git clone git@github.com:LeejanAlipio/git-commands-test.git
   ```
 
+## Saving Changes
+Commands to saving your files and its history
 
 `git status` - Checks the status if any changes have been made. 
 
-`git add "The file"` - Allows you to add the file you want to the staging area. "Think of the staging area as a “waiting room” for your changes until you commit them."
+`git add <file>` - Allows you to add the file you want to the staging area. "Think of the staging area as a “waiting room” for your changes until you commit them."
+  ```Bash
+  git add README.md
+  git add . // Stages everything
+  ```
 
-`git commit -m "A description"` - Commits the files in the staging area.
+`git commit -m <"A description">` - Commits the files in the staging area and saves it into your local repository history. Always add a description to the commit you make.
+
+`git log` - Allows you to see the changes and who changed it in chronological order.
+```Bash
+git log --oneline // Shows a single line history of every commit
+```
 
 `git push` - Puts the commits into the repo in GitHub, which we can see visually.
 
