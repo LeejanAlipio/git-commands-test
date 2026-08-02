@@ -55,3 +55,20 @@ Let's you test and improve your codebase without touching your original code.
   git checkout/switch main // Always go back to the main
   git merge new-feature
   ```
+
+## Sharing and Updating
+Commands that lets you share your progress with others and update it whenever you make changes.
+
+- `git remote add origin <github link of your repo>` - Allows you to add your local repository to a remote server
+
+- `git fetch` - Downloads new data from the remote/online repository without changing/updating any file in your current workspace. Acts as a read-only so you can review what has changed.
+
+- `git pull` - Download new data and updates your workspace. Combination of `git fetch` and `git merge`.
+  ```Bash
+  git pull origin <branch>
+  ```
+
+- `git push` - Pushes your changes in your local repository to the remote server(GitHub).
+  ```Bash
+  git push origin <branch>
+  ```
