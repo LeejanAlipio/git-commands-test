@@ -1,4 +1,5 @@
-# Basic Git Commands
+# Everything about Git
+A comprehensive updated list of essential git commands for your everyday work.
 
 Hello Odin!
 
