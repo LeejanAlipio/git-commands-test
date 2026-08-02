@@ -36,6 +36,22 @@ Commands to saving your files and its history
   git log --oneline // Shows a single line history of every commit
   ```
 
-`git push` - Puts the commits into the repo in GitHub, which we can see visually.
+## Branching and Merging
+Let's you test and improve your codebase without touching your original code.
 
-`git log` - Allows you to see the changes and who changed it.
+- `git branch` - list all of your repositories branches.
+  ```Bash
+  git branch new-feature // Creates another branch
+  ```
+
+- `git chechkout/switch` - Switches to another branch
+  ```Bash
+  git switch new-feature 
+  git checkout -b new-feature // Creates a branch and switches to it immediately
+  ```
+
+- `git merge` - Implements the new feature to the main.
+  ```Bash
+  git checkout/switch main // Always go back to the main
+  git merge new-feature
+  ```
