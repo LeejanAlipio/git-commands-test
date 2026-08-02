@@ -32,9 +32,9 @@ Commands to saving your files and its history
 - `git commit -m <"A description">` - Commits the files in the staging area and saves it into your local repository history. Always add a description to the commit you make.
 
 - `git log` - Allows you to see the changes and who changed it in chronological order.
-```Bash
-git log --oneline // Shows a single line history of every commit
-```
+  ```Bash
+  git log --oneline // Shows a single line history of every commit
+  ```
 
 `git push` - Puts the commits into the repo in GitHub, which we can see visually.
 
