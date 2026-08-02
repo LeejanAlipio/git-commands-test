@@ -5,7 +5,6 @@ A comprehensive updated crash course of Git for common everyday work.
 Commands to set up your environment before working on a project.
 
 `git config` - Sets up your information for your commits.
-    
   ```Bash
   git config --global user.name "Lee"
   git config --global user.email "gg@gmail.com"
@@ -15,10 +14,10 @@ Commands to set up your environment before working on a project.
 
 
 `git clone <SSH or HTTPS>` - Downloads repo from a remove server to your local machine.
-    
   ```Bash
   git clone git@github.com:LeejanAlipio/git-commands-test.git
   ```
+
 
 `git status` - Checks the status if any changes have been made. 
 
