@@ -26,33 +26,33 @@ Commands to saving your files and its history
 - `git add <file>` - Allows you to add the file you want to the staging area. "Think of the staging area as a “waiting room” for your changes until you commit them."
   ```Bash
   git add README.md
-  git add . // Stages everything
+  git add . # Stages everything
   ```
 
 - `git commit -m <"A description">` - Commits the files in the staging area and saves it into your local repository history. Always add a description to the commit you make.
 
 - `git log` - Allows you to see the changes and who changed it in chronological order.
   ```Bash
-  git log --oneline // Shows a single line history of every commit
+  git log --oneline # Shows a single line history of every commit
   ```
 
 ## Branching and Merging
 Let's you test and improve your codebase without touching your original code.
 
-- `git branch` - list all of your repositories branches.
+- `git branch` - Lists all of your repository's branches.
   ```Bash
-  git branch new-feature // Creates another branch
+  git branch new-feature # Creates another branch
   ```
 
-- `git chechkout/switch` - Switches to another branch
+- `git checkout/switch` - Switches to another branch.
   ```Bash
-  git switch new-feature 
-  git checkout -b new-feature // Creates a branch and switches to it immediately
+  git switch new-feature
+  git checkout -b new-feature # Creates a branch and switches to it immediately
   ```
 
 - `git merge` - Implements the new feature to the main.
   ```Bash
-  git checkout/switch main // Always go back to the main
+  git checkout main # Always go back to the main branch
   git merge new-feature
   ```
 
@@ -80,7 +80,7 @@ Going back to a previous version of your project when you made a mistake.
 
 - `git reset` - Restores project history to a previous commit. Must be used extremely carefully.
   ```Bash
-  git reset --soft <commit-hash> // Undo the last commit and move changes back to staging
-  git reset --mixed <commit-hash> // Undo the last commit and keep changes unstaged
-  git reset --hard <commit-hash> // Completely remove changes and reset the repository to that commit
+  git reset --soft <commit-hash> # Undo the last commit and move changes back to staging
+  git reset --mixed <commit-hash> # Undo the last commit and keep changes unstaged
+  git reset --hard <commit-hash> # Completely remove changes and reset the repository to that commit
   ```
