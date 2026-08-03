@@ -72,3 +72,15 @@ Commands that lets you share your progress with others and update it whenever yo
   ```Bash
   git push origin <branch>
   ```
+
+## Reverting Changes
+Going back to a previous version of your project when you made a mistake.
+
+- `git restore <file>` - Discards uncommitted changes to a file and restores the last committed version.
+
+- `git reset` - Restores project history to a previous commit. Must be used extremely carefully.
+  ```Bash
+  git reset --soft <commit-hash> // Undo the last commit and move changes back to staging
+  git reset --mixed <commit-hash> // Undo the last commit and keep changes unstaged
+  git reset --hard <commit-hash> // Completely remove changes and reset the repository to that commit
+  ```
