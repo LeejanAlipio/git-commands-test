@@ -84,3 +84,41 @@ Going back to a previous version of your project when you made a mistake.
   git reset --mixed <commit-hash> # Undo the last commit and keep changes unstaged
   git reset --hard <commit-hash> # Completely remove changes and reset the repository to that commit
   ```
+
+## Git Commit Convention
+A short guide to writing clear, consistent commit messages.
+
+- Use the imperative mood in the subject line (e.g., "Add", "Fix", "Update").
+- Keep the subject line short: 50 characters or less when possible.
+- Separate subject from body with a blank line.
+- Use the body to explain what and why (wrap at ~72 characters).
+- Reference issue numbers when applicable: `Fixes #123`.
+- Use a type/scope prefix for clarity (optional but recommended):
+  - feat: A new feature
+  - fix: A bug fix
+  - docs: Documentation changes
+  - style: Formatting, white-space, etc.
+  - refactor: Code change that neither fixes a bug nor adds a feature
+  - perf: Performance improvements
+  - test: Adding or updating tests
+  - chore: Maintenance tasks
+
+Example commit messages:
+
+```bash
+feat(auth): add OAuth2 login flow
+
+Add support for Google and GitHub OAuth2 login.
+This implements the authorization code flow and stores tokens securely.
+
+Fixes #42
+```
+
+```bash
+fix: correct typo in README
+```
+
+Notes:
+
+- Keep commits focused and small — one logical change per commit makes reviews easier.
+- Squash or rebase locally to tidy up WIP commits before merging to main.
