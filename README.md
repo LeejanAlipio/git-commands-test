@@ -13,17 +13,17 @@ Commands to set up your environment before working on a project.
 - `git init` - Initialize a new git repository in your current folder/directory. Creates a hidden .git that tracks your project's progress/history.
 
 
-- `git clone <SSH or HTTPS>` - Downloads repo from a remove server to your local machine.
+- `git clone <SSH or HTTPS>` - Downloads repo from a remote server to your local machine.
   ```Bash
   git clone git@github.com:LeejanAlipio/git-commands-test.git
   ```
 
 ## Saving Changes
-Commands to saving your files and its history
+Commands to saving of your files and its history
 
 - `git status` - Checks the status if any changes have been made. 
 
-- `git add <file>` - Allows you to add the file you want to the staging area. "Think of the staging area as a “waiting room” for your changes until you commit them."
+- `git add <file>` - Allows you to add the file you want to the staging area. "Think of the staging area as a "waiting room" for your changes until you commit them."
   ```Bash
   git add README.md
   git add . # Stages everything
