@@ -56,6 +56,8 @@ Let's you test and improve your codebase without touching your original code.
   git merge new-feature
   ```
 
+- `git branch -d <branch>` - Deletes a branch.
+
 ## Sharing and Updating
 Commands that lets you share your progress with others and update it whenever you make changes.
 
