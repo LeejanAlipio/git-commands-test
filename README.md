@@ -1,5 +1,9 @@
 # Basics Of Git
-A comprehensive crash course that teaches what are the basic Git commands, how they are used, how to compose a good commit.
+A comprehensive crash course that teaches what are the basic Git commands, how they are used individually and together, how to compose a good commit.
+
+## Prerequisite
+- You must have [Git](https://git-scm.com/install/) installed.
+- Basic command line knowledge (e.g, `cd`, `ls`, `mkdir`).
 
 ## Setting Up and Initiating Git
 Commands to set up your environment before working on a project.
