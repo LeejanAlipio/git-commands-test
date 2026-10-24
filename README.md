@@ -1,5 +1,5 @@
-# Everything about Git
-A comprehensive updated crash course of Git for common everyday work.
+# Basics Of Git
+A comprehensive crash course that teaches what are the basic Git commands, how they are used, how to compose a good commit.
 
 ## Setting Up and Initiating Git
 Commands to set up your environment before working on a project.
@@ -122,5 +122,4 @@ fix: correct typo in README
 
 Notes:
 
-- Keep commits focused and small — one logical change per commit makes reviews easier.
-- Squash or rebase locally to tidy up WIP commits before merging to main.
+- Keep commits focused and small. One logical change per commit makes reviews easier.
